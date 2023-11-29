@@ -11,3 +11,5 @@ def adivina_el_numero(x):
     
     prediccion = 0
     
+    while
+    
