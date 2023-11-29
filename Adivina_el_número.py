@@ -14,4 +14,11 @@ def adivina_el_numero(x):
     while prediccion != numero_aleatorio:
         # El usuario ingresa un número
         prediccion = int(input(f'Adivina un número entre 1 y {x}: ')) # f-string
+        
+        if prediccion < numero_aleatorio:
+            print('Inténtalo otra vez, este número es pequeño.')
+        elif prediccion > numero_aleatorio:
+            print('Inténtalo otra vez, este número es alto.')
+        
+print(f'Felicidades! Adivinaste el número {numero_aleatorio} correctamente.')
     
