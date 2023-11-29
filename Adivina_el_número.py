@@ -9,3 +9,5 @@ def adivina_el_numero(x):
     
     numero_aleatorio = random.randint(1, x) # Número aleatorio entre 1 y x, ambos inclusive.
     
+    prediccion = 0
+    
