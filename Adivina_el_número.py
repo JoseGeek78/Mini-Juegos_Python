@@ -1,24 +1,34 @@
 import random
 
-def adivina_el_numero(x):
-    
-    print('========================')
-    print('¡Bienvenido(a) al juego!')
-    print('========================')
-    print('Tu meta es adivinar el número generado por el ordenador.')
-    
-    numero_aleatorio = random.randint(1, x) # Número aleatorio entre 1 y x, ambos inclusive.
-    
-    prediccion = 0
-    
-    while prediccion != numero_aleatorio:
-        # El usuario ingresa un número
-        prediccion = int(input(f'Adivina un número entre 1 y {x}: ')) # f-string
-        
-        if prediccion < numero_aleatorio:
-            print('Inténtalo otra vez, este número es pequeño.')
-        elif prediccion > numero_aleatorio:
-            print('Inténtalo otra vez, este número es alto.')
-        
-print(f'Felicidades! Adivinaste el número {numero_aleatorio} correctamente.')
-    
+# El usuario adivina el número aleatorio generado por la computadora.
+def adivina_el_número(x):
+
+    print("============================")
+    print("  ¡Bienvenido(a) al Juego!  ")
+    print("============================")
+    print("Tu meta es adivinar el número generado por la computadora.")
+
+    número_aleatorio = random.randint(1, x) # número aleatorio entre 1 y x.
+
+    # La predicción es 0 inicialmente para que no coincida con el número aleatorio. 
+    predicción = 0
+
+    # Continuar prediciendo el número hasta que la predicción sea correcta.
+    while predicción != número_aleatorio:
+        # El usuario ingresa un número.
+        predicción = int(input(f'Adivina un número entre 1 y {x}: '))
+        # Si el número es menor que el número aleatorio, se 
+        # muestra un mensaje.
+        if predicción < número_aleatorio:
+            print('Intenta otra vez. Este número es muy pequeño.')
+        # Si el número es mayor que el número aleatorio, se
+        # muestra un mensaje.
+        elif predicción > número_aleatorio:
+            print('Intenta otra vez. Este número es muy grande.')
+
+    # El ciclo o bucle se detiene cuando el usuario adivina el número
+    # correctamente y se muestra un mensaje final.
+    print(f'¡Felicitaciones! Adivinaste el número {número_aleatorio} correctamente.')
+
+# Llamar a la función
+adivina_el_número(10)
