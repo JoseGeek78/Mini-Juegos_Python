@@ -1,4 +1,4 @@
-# Concatenar cadenas de caracteres.
+# Vamos a concatenar cadenas de caracteres.
 # Queremos crear una cadena que diga:
 # "Aprende a programar con ________."
 
