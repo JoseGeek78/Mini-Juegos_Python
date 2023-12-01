@@ -19,5 +19,5 @@ def adivina_el_numero_computadora(x):
           prediccion = limite_inferior # También podría ser el límite superior
           
           # Obtener respuesta del usuario
-          respuesta = input(f'')
+          respuesta = input(f'Mi predicción es {prediccion}. Si es muy alta, ingresa (A). Si es muy baja, ingresa (B). Si es correcta, ingresa (C).').lower()
              
