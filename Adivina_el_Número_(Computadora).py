@@ -3,4 +3,4 @@ def adivina_el_numero_computadora(x):
   print(' Bienvenida(o) al juego! ')
   print('=========================')
   
-  print()
+  print(f'')
