@@ -1,3 +1,5 @@
+import random
+
 def adivina_el_numero_computadora(x):
   print('=========================')
   print(' Bienvenida(o) al juego! ')
@@ -9,3 +11,9 @@ def adivina_el_numero_computadora(x):
   limite_superior = x
   
   respuesta = ''
+  while respuesta != 'c':
+      #Generar predicción
+      if limite_inferior != limite_superior:
+          prediccion = random.randint(limite_inferior, limite_superior)
+      else:
+             
