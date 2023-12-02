@@ -23,6 +23,7 @@ def adivina_el_numero_computadora(x):
           
           if respuesta == 'a':
               limite_superior = prediccion - 1
+          elif respuesta == 'b':
+              limite_inferior = prediccion + 1
               
-              
-             
+          
