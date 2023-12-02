@@ -20,4 +20,6 @@ def adivina_el_numero_computadora(x):
           
           # Obtener respuesta del usuario
           respuesta = input(f'Mi predicción es {prediccion}. Si es muy alta, ingresa (A). Si es muy baja, ingresa (B). Si es correcta, ingresa (C).').lower()
+          
+          if
              
