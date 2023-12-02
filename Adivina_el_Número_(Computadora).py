@@ -30,7 +30,7 @@ def adivina_el_número_computadora(x):
         elif respuesta == "b":
             límite_inferior = predicción + 1
 
-    print(f"¡Siii! La computadora adivinó tu número correctamente: {predicción}")
+    print(f"Sí! La computadora adivinó tu número correctamente: {predicción}")
 
 
 adivina_el_número_computadora(10)
