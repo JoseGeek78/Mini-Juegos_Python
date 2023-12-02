@@ -1,5 +1,6 @@
 import random
 
+
 def adivina_el_numero_computadora(x):
   print('=========================')
   print(' Bienvenida(o) al juego! ')
@@ -25,5 +26,7 @@ def adivina_el_numero_computadora(x):
               limite_superior = prediccion - 1
           elif respuesta == 'b':
               limite_inferior = prediccion + 1
-  print(f'Sí! la computadora adivinó tu número correctamente: {prediccion}')            
-          
+  print(f'Sí! la computadora adivinó tu número correctamente: {prediccion}')
+  
+  
+  adivina_el_numero_computadora(10)  
