@@ -1,1 +1,2 @@
 def jugar():
+    usuario = input()
