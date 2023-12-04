@@ -15,7 +15,16 @@ def jugar():
 
 
 def gano_el_jugador(jugador, oponente):
+     # Retornar True (verdadero) si gana el jugador.
+    # Piedra gana a Tijera (pi > ti).
+    # Tijera gana a Papel (ti > pa).
+    # Papel gana a Piedra (pa > pi).
+    if((jugador == 'pi' and oponente == 'ti')
+       or (jugador == 'ti' and oponente == 'pa')
+       or (jugador == 'pa' and oponente == 'pi')):
+       return True
+    else:
+        return False
     
-
-
+    
 print(jugar())
