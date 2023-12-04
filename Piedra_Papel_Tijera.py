@@ -7,4 +7,3 @@ def jugar():
     
     if usuario == computadora:
         return '¡Empate!'
-    
