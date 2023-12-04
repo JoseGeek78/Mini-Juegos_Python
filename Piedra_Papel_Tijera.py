@@ -7,3 +7,15 @@ def jugar():
     
     if usuario == computadora:
         return '¡Empate!'
+    
+    if gano_el_jugador(usuario, computadora):
+        return '¡Ganaste!'
+    
+    return '¡Perdiste!'
+
+
+def gano_el_jugador(jugador, oponente):
+    
+
+
+print(jugar())
