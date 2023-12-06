@@ -19,6 +19,6 @@ def ahorcado():
     
     palabra = obtener_palabra_valida(palabras)
     
-    letras_por_adivinar = 
+    letras_por_adivinar = set()
     letras_adivinadas = 
     abecedario =
