@@ -1,4 +1,5 @@
 import random
+import string
 
 from palabras import palabras
 
@@ -19,6 +20,6 @@ def ahorcado():
     
     palabra = obtener_palabra_valida(palabras)
     
-    letras_por_adivinar = set()
-    letras_adivinadas = 
-    abecedario =
+    letras_por_adivinar = set(palabra)
+    letras_adivinadas = set()
+    abecedario = set(string.ascii_uppercase) # No contiene la Ñ
