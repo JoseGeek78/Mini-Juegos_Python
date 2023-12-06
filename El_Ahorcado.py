@@ -23,3 +23,8 @@ def ahorcado():
     letras_por_adivinar = set(palabra)
     letras_adivinadas = set()
     abecedario = set(string.ascii_uppercase) # No contiene la Ñ
+    
+    vidas = 7
+    
+    while len(letras_por_adivinar) > 0 and vidas > 0:
+        print(f'Te quedan {vidas} vidas y has usado estas letras: {' '.join(letras_adivinadas)}')
