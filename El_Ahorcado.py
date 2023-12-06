@@ -28,3 +28,9 @@ def ahorcado():
     
     while len(letras_por_adivinar) > 0 and vidas > 0:
         print(f'Te quedan {vidas} vidas y has usado estas letras: {' '.join(letras_adivinadas)}')
+        
+        # Mostrar el estado actual de la palabra.
+        palabra_lista = [letra if letra in letras_adivinadas  else '-' for letra in palabra]
+        print(f'Letras a adivinar: {palabra_lista}')
+        
+       
