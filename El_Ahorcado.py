@@ -7,7 +7,7 @@ import random
 import string
 
 from palabras import palabras
-from ahorcado_diagramas import vidas_diccionario_visual
+from El_Ahorcado_diagramas import vidas_diccionario_visual
 
 
 def obtener_palabra_válida(palabras):
