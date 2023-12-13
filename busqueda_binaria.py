@@ -9,5 +9,11 @@ def búsqueda_ingenua(lista, objetivo):
     return -1  
 
 
-mi_lista = [1, 3, 5, 10, 1 ]
-print(búsqueda_ingenua(mi_lista, 15))
+def búsqueda_binaria(lista, objetivo, límite_inferior=None, límite_superior=None):
+    if límite_inferior is None:
+        límite_inferior = 0
+    if límite_superior is None:
+        límite_superior = len(lista)-1
+    
+    if límite_superior < límite_inferior:
+        return -1    
