@@ -11,9 +11,9 @@ def búsqueda_ingenua(lista, objetivo):
 
 def búsqueda_binaria(lista, objetivo, límite_inferior=None, límite_superior=None):
     if límite_inferior is None:
-        límite_inferior = 0
+        límite_inferior = 0  # Inicio de la lista.
     if límite_superior is None:
-        límite_superior = len(lista)-1
+        límite_superior = len(lista)-1 # Final  de la lista.
     
     if límite_superior < límite_inferior:
         return -1    
