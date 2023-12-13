@@ -10,4 +10,4 @@ def búsqueda_ingenua(lista, objetivo):
 
 
 mi_lista = [1, 3, 5, 10, 1 ]
-print(búsqueda_ingenua(mi_lista, 10))
+print(búsqueda_ingenua(mi_lista, 15))
