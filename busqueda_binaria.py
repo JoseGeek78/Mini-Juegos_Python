@@ -16,4 +16,6 @@ def búsqueda_binaria(lista, objetivo, límite_inferior=None, límite_superior=N
         límite_superior = len(lista)-1 # Final  de la lista.
     
     if límite_superior < límite_inferior:
-        return -1    
+        return -1
+
+    
