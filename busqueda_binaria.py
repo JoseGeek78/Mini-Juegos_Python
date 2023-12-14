@@ -17,5 +17,7 @@ def búsqueda_binaria(lista, objetivo, límite_inferior=None, límite_superior=N
     
     if límite_superior < límite_inferior:
         return -1
+    
+    punto_medio = 
 
     
